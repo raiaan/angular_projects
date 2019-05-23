@@ -1,4 +1,12 @@
 # UsersApp
+my second angular app 
+in this app i used api "https://jsonplaceholder.typicode.com/users" 
+display single user details when user click single user using this api "https://jsonplaceholder.typicode.com/users/{user_id}"
+to list users at the main page and "https://jsonplaceholder.typicode.com/posts" to display posts 
+if user click posts nav icon ,
+ 
+ at this app i used this toturial"https://coursetro.com/posts/code/154/Angular-6-Tutorial---Learn-Angular-6-in-this-Crash-Course" to help me and it's  semilair to the app in this toturial
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.9.
 
