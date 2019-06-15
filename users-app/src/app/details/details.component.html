@@ -1,6 +1,18 @@
 <h1>{{user$.name}}</h1>
-<ul>
-  <li><strong>username :</strong>{{user$.username}}</li>
-  <li><strong>Email:</strong> {{ user$.email }}</li>
-  <li><strong>phone :</strong>{{user$.phone}}</li>
-</ul>
+<div  class="container">
+  <p>
+      <strong>username :</strong>{{user$.username}}<br/><br />
+      <strong>Email:</strong> {{ user$.email }}    
+      <strong>phone :</strong>{{user$.phone}} >
+  </p>
+ <hr />
+  <div class="posts-container">
+  <h3>user posts</h3>
+  <ul>
+    <li *ngFor = "let post of userPosts$">
+      <h4>{{post.title}}</h4>
+      <p>{{post.body}}</p>
+    </li>
+  </ul>
+  </div>
+</div>
